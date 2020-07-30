@@ -1,0 +1,21 @@
+{
+    "name": "doc88/flux-menu-control",
+    "description": "Library for implementing menu access control in Laravel applications.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Douglas Men",
+            "email": "douglas.men@doc88.com.br"
+        }
+    ],
+    "require": {
+        "php": ">= 7.2.0",
+        "doc88/flux-role-permission": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Doc88\\FluxMenuControl\\": "src/"
+        }
+    }
+}
